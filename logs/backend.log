@@ -1,0 +1,9 @@
+[2022-10-13 02:11:04,387][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2022-10-13 02:11:04,391][worker-0][INFO] Initialized CORS
+[2022-10-13 02:11:04,391][worker-0][INFO] App Initialization is finished successfully
+[2023-10-20 20:37:06,245][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-20 20:37:06,247][worker-0][INFO] Initialized CORS
+[2023-10-20 20:37:06,247][worker-0][INFO] App Initialization is finished successfully
+[2023-10-20 20:37:57,687][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-20 20:37:57,689][worker-0][INFO] Initialized CORS
+[2023-10-20 20:37:57,690][worker-0][INFO] App Initialization is finished successfully

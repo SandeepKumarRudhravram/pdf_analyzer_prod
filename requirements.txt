@@ -1,0 +1,6 @@
+Flask==1.1.4
+Flask-Cors==1.10.3
+flask-talisman==0.8.1
+PyJWT==2.3.0
+python-jwt==3.3.2
+markupsafe==2.0.1
