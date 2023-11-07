@@ -141,8 +141,8 @@ def _default_auth_response_handler(access_token, identity):
     print("access_token", access_token)
     try:
         access_token = access_token.decode('utf-8')
-    except Exception as e:
-        logger.info(e,exc_info=True)
+    except:
+        pass
     new_token = str(access_token).split('.')
     s = str(new_token[2])
     k = 2

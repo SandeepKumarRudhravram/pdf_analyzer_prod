@@ -1,6 +1,6 @@
 # Use the official lightweight Python image.
 # https://hub.docker.com/_/python
-FROM python:3
+FROM python:3.8
 
 # RUN apt-get update \
 # && apt-get install gcc -y \
@@ -15,6 +15,7 @@ WORKDIR $APP_HOME
 COPY . ./
 
 # Install production dependencies.
+RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 RUN pip install gunicorn
 

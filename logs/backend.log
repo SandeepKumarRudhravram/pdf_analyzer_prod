@@ -7,3 +7,1024 @@
 [2023-10-20 20:37:57,687][worker-0][INFO] Initialized logger with level 10 for worker 0
 [2023-10-20 20:37:57,689][worker-0][INFO] Initialized CORS
 [2023-10-20 20:37:57,690][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 00:55:20,003][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 00:55:20,005][worker-0][INFO] Initialized CORS
+[2023-10-21 00:55:20,006][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 09:35:29,230][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 09:35:29,264][worker-0][INFO] Initialized CORS
+[2023-10-21 09:35:29,264][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 09:36:08,008][worker-0][INFO] 'str' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/security/updated_jwt/__init__.py", line 143, in _default_auth_response_handler
+    access_token = access_token.decode('utf-8')
+AttributeError: 'str' object has no attribute 'decode'
+[2023-10-21 09:37:01,048][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 09:37:01,073][worker-0][INFO] Initialized CORS
+[2023-10-21 09:37:01,073][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 09:37:43,896][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 09:37:43,909][worker-0][INFO] Initialized CORS
+[2023-10-21 09:37:43,910][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 09:37:46,505][worker-0][ERROR] Invalid token. Signature has expired
+[2023-10-21 09:37:50,459][worker-0][INFO] 'str' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/security/updated_jwt/__init__.py", line 143, in _default_auth_response_handler
+    access_token = access_token.decode('utf-8')
+AttributeError: 'str' object has no attribute 'decode'
+[2023-10-21 09:38:00,712][worker-0][INFO] 'str' object has no attribute 'decode'
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/security/updated_jwt/__init__.py", line 143, in _default_auth_response_handler
+    access_token = access_token.decode('utf-8')
+AttributeError: 'str' object has no attribute 'decode'
+[2023-10-21 09:38:29,147][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 09:38:29,159][worker-0][INFO] Initialized CORS
+[2023-10-21 09:38:29,159][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 09:39:08,249][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 09:39:08,267][worker-0][INFO] Initialized CORS
+[2023-10-21 09:39:08,267][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 09:40:53,878][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 09:40:53,892][worker-0][INFO] Initialized CORS
+[2023-10-21 09:40:53,892][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 10:09:33,494][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 10:09:33,644][worker-0][INFO] Initialized CORS
+[2023-10-21 10:09:33,644][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 10:09:56,223][worker-0][ERROR] 'str' object has no attribute 'pages'
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 68, in upload_bill
+    count_urls_,count_images_=get_final_result(os.path.join(pdf_docs, filename))
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 27, in get_final_result
+    count_urls_=count_custom_urls_in_pdf(pdf_file)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 20, in count_custom_urls_in_pdf
+    for page in pdf_file.pages:
+AttributeError: 'str' object has no attribute 'pages'
+[2023-10-21 10:10:06,153][worker-0][ERROR] 'str' object has no attribute 'pages'
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 68, in upload_bill
+    count_urls_,count_images_=get_final_result(os.path.join(pdf_docs, filename))
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 27, in get_final_result
+    count_urls_=count_custom_urls_in_pdf(pdf_file)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 20, in count_custom_urls_in_pdf
+    for page in pdf_file.pages:
+AttributeError: 'str' object has no attribute 'pages'
+[2023-10-21 10:11:02,537][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 10:11:02,667][worker-0][INFO] Initialized CORS
+[2023-10-21 10:11:02,667][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 10:11:05,591][worker-0][ERROR] Invalid token. Signature has expired
+[2023-10-21 10:17:34,724][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 10:17:34,859][worker-0][INFO] Initialized CORS
+[2023-10-21 10:17:34,859][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 11:15:32,992][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 11:15:33,130][worker-0][INFO] Initialized CORS
+[2023-10-21 11:15:33,130][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 11:35:23,587][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 11:35:23,745][worker-0][INFO] Initialized CORS
+[2023-10-21 11:35:23,758][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 11:38:07,921][worker-0][ERROR] Invalid token. Signature has expired
+[2023-10-21 12:02:25,484][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 12:02:25,667][worker-0][INFO] Initialized CORS
+[2023-10-21 12:02:25,667][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 12:02:27,472][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 12:02:27,571][worker-0][INFO] Initialized CORS
+[2023-10-21 12:02:27,571][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 12:53:11,083][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 12:53:11,238][worker-0][INFO] Initialized CORS
+[2023-10-21 12:53:11,238][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 12:58:45,333][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 12:58:45,466][worker-0][INFO] Initialized CORS
+[2023-10-21 12:58:45,466][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 12:59:25,071][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 12:59:25,191][worker-0][INFO] Initialized CORS
+[2023-10-21 12:59:25,191][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 12:59:29,988][worker-0][ERROR] Invalid token. Signature has expired
+[2023-10-21 13:00:47,075][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 13:00:47,201][worker-0][INFO] Initialized CORS
+[2023-10-21 13:00:47,202][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 13:00:49,770][worker-0][ERROR] Invalid token. Signature has expired
+[2023-10-21 13:00:59,085][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 13:00:59,199][worker-0][INFO] Initialized CORS
+[2023-10-21 13:00:59,200][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 13:03:01,703][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 13:03:01,894][worker-0][INFO] Initialized CORS
+[2023-10-21 13:03:01,894][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 13:03:04,764][worker-0][ERROR] list index out of range
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 68, in upload_bill
+    count_urls_,count_images_,dict_final_=get_final_result(os.path.join(pdf_docs, filename))
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 30, in get_final_result
+    dict_final_=text_font(pdf_file)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 54, in text_font
+    font_sizes = get_font_size(page)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 36, in get_font_size
+    text_1 = page.get_text("dict")["blocks"][0]["lines"]
+IndexError: list index out of range
+[2023-10-21 13:05:28,729][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 13:05:28,854][worker-0][INFO] Initialized CORS
+[2023-10-21 13:05:28,854][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 13:05:32,387][worker-0][ERROR] list index out of range
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 68, in upload_bill
+    count_urls_,count_images_,dict_final_=get_final_result(os.path.join(pdf_docs, filename))
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 30, in get_final_result
+    dict_final_=text_font(pdf_file)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 58, in text_font
+    font_sizes = get_font_size(page,page_number)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 37, in get_font_size
+    text_1 = page.get_text("dict")["blocks"][0]["lines"]
+IndexError: list index out of range
+[2023-10-21 13:07:11,371][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 13:07:11,495][worker-0][INFO] Initialized CORS
+[2023-10-21 13:07:11,495][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 13:07:15,245][worker-0][ERROR] list index out of range
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 68, in upload_bill
+    count_urls_,count_images_,dict_final_=get_final_result(os.path.join(pdf_docs, filename))
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 30, in get_final_result
+    dict_final_=text_font(pdf_file)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 59, in text_font
+    font_sizes = get_font_size(page,page_number)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 38, in get_font_size
+    text_1 = page.get_text("dict")["blocks"][0]["lines"]
+IndexError: list index out of range
+[2023-10-21 13:07:33,579][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 13:07:33,689][worker-0][INFO] Initialized CORS
+[2023-10-21 13:07:33,689][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 13:07:36,486][worker-0][ERROR] list index out of range
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 68, in upload_bill
+    count_urls_,count_images_,dict_final_=get_final_result(os.path.join(pdf_docs, filename))
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 30, in get_final_result
+    dict_final_=text_font(pdf_file)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 59, in text_font
+    font_sizes = get_font_size(page,page_number)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 38, in get_font_size
+    text_1 = page.get_text("dict")["blocks"][0]["lines"]
+IndexError: list index out of range
+[2023-10-21 13:08:19,683][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 13:08:19,800][worker-0][INFO] Initialized CORS
+[2023-10-21 13:08:19,801][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 13:08:22,527][worker-0][ERROR] local variable 'text_1' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 68, in upload_bill
+    count_urls_,count_images_,dict_final_=get_final_result(os.path.join(pdf_docs, filename))
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 30, in get_final_result
+    dict_final_=text_font(pdf_file)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 62, in text_font
+    font_sizes = get_font_size(page,page_number)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 42, in get_font_size
+    for i in range(len(text_1)):
+UnboundLocalError: local variable 'text_1' referenced before assignment
+[2023-10-21 13:13:03,841][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 13:13:03,975][worker-0][INFO] Initialized CORS
+[2023-10-21 13:13:03,976][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 13:13:48,318][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 13:13:48,446][worker-0][INFO] Initialized CORS
+[2023-10-21 13:13:48,446][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 13:15:53,556][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 13:15:53,677][worker-0][INFO] Initialized CORS
+[2023-10-21 13:15:53,677][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 13:18:01,887][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 13:18:02,007][worker-0][INFO] Initialized CORS
+[2023-10-21 13:18:02,007][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 13:20:01,258][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 13:20:01,375][worker-0][INFO] Initialized CORS
+[2023-10-21 13:20:01,375][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 13:21:27,558][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 13:21:27,680][worker-0][INFO] Initialized CORS
+[2023-10-21 13:21:27,681][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 13:22:47,897][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 13:22:48,017][worker-0][INFO] Initialized CORS
+[2023-10-21 13:22:48,017][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 13:23:02,418][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 13:23:02,530][worker-0][INFO] Initialized CORS
+[2023-10-21 13:23:02,531][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 20:38:20,109][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 20:38:20,339][worker-0][INFO] Initialized CORS
+[2023-10-21 20:38:20,340][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 20:39:18,455][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 20:39:18,572][worker-0][INFO] Initialized CORS
+[2023-10-21 20:39:18,572][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 20:41:01,532][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 20:41:01,647][worker-0][INFO] Initialized CORS
+[2023-10-21 20:41:01,647][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 20:41:18,455][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 20:41:18,546][worker-0][INFO] Initialized CORS
+[2023-10-21 20:41:18,546][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 20:42:32,142][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 20:42:32,245][worker-0][INFO] Initialized CORS
+[2023-10-21 20:42:32,245][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 20:45:46,469][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 20:45:46,592][worker-0][INFO] Initialized CORS
+[2023-10-21 20:45:46,593][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 20:46:21,855][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 20:46:21,967][worker-0][INFO] Initialized CORS
+[2023-10-21 20:46:21,968][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 20:46:33,500][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 20:46:33,618][worker-0][INFO] Initialized CORS
+[2023-10-21 20:46:33,619][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 20:50:16,163][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 20:50:16,296][worker-0][INFO] Initialized CORS
+[2023-10-21 20:50:16,296][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 20:50:32,585][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 20:50:32,698][worker-0][INFO] Initialized CORS
+[2023-10-21 20:50:32,698][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 21:25:30,725][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 21:25:31,021][worker-0][INFO] Initialized CORS
+[2023-10-21 21:25:31,021][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 21:52:40,119][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 21:52:40,365][worker-0][INFO] Initialized CORS
+[2023-10-21 21:52:40,365][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 22:02:02,130][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 22:02:02,269][worker-0][INFO] Initialized CORS
+[2023-10-21 22:02:02,269][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 22:02:28,542][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 22:02:28,647][worker-0][INFO] Initialized CORS
+[2023-10-21 22:02:28,648][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 22:03:35,972][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 22:03:36,102][worker-0][INFO] Initialized CORS
+[2023-10-21 22:03:36,102][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 22:04:34,557][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 22:04:34,679][worker-0][INFO] Initialized CORS
+[2023-10-21 22:04:34,679][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 22:04:44,233][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 22:04:44,342][worker-0][INFO] Initialized CORS
+[2023-10-21 22:04:44,343][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 22:26:44,845][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 22:26:44,995][worker-0][INFO] Initialized CORS
+[2023-10-21 22:26:44,995][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 22:29:28,749][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 22:29:28,865][worker-0][INFO] Initialized CORS
+[2023-10-21 22:29:28,866][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 22:30:42,695][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 22:30:42,814][worker-0][INFO] Initialized CORS
+[2023-10-21 22:30:42,814][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 22:32:17,712][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 22:32:17,834][worker-0][INFO] Initialized CORS
+[2023-10-21 22:32:17,835][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 22:33:59,657][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 22:33:59,785][worker-0][INFO] Initialized CORS
+[2023-10-21 22:33:59,785][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 23:00:37,922][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 23:00:38,059][worker-0][INFO] Initialized CORS
+[2023-10-21 23:00:38,059][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 23:01:07,438][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 23:01:07,545][worker-0][INFO] Initialized CORS
+[2023-10-21 23:01:07,546][worker-0][INFO] App Initialization is finished successfully
+[2023-10-21 23:04:07,595][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-21 23:04:07,724][worker-0][INFO] Initialized CORS
+[2023-10-21 23:04:07,724][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 13:19:23,723][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 13:19:23,983][worker-0][INFO] Initialized CORS
+[2023-10-22 13:19:23,983][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 13:23:53,423][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 13:23:53,576][worker-0][INFO] Initialized CORS
+[2023-10-22 13:23:53,576][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 13:25:28,970][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 13:25:29,097][worker-0][INFO] Initialized CORS
+[2023-10-22 13:25:29,098][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 13:27:44,395][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 13:27:44,516][worker-0][INFO] Initialized CORS
+[2023-10-22 13:27:44,517][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 13:29:31,875][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 13:29:31,992][worker-0][INFO] Initialized CORS
+[2023-10-22 13:29:31,993][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 13:47:31,099][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 13:47:31,233][worker-0][INFO] Initialized CORS
+[2023-10-22 13:47:31,234][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 13:48:33,992][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 13:48:34,123][worker-0][INFO] Initialized CORS
+[2023-10-22 13:48:34,123][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 13:49:51,121][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 13:49:51,242][worker-0][INFO] Initialized CORS
+[2023-10-22 13:49:51,242][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 13:54:38,573][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 13:54:38,698][worker-0][INFO] Initialized CORS
+[2023-10-22 13:54:38,698][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 13:55:53,836][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 13:55:53,965][worker-0][INFO] Initialized CORS
+[2023-10-22 13:55:53,966][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 13:56:25,349][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 13:56:25,460][worker-0][INFO] Initialized CORS
+[2023-10-22 13:56:25,460][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 14:04:53,339][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 14:04:53,469][worker-0][INFO] Initialized CORS
+[2023-10-22 14:04:53,469][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 14:05:10,980][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 14:05:11,090][worker-0][INFO] Initialized CORS
+[2023-10-22 14:05:11,091][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 14:05:16,879][worker-0][ERROR] 'text'
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 73, in upload_bill
+    font_txt = dict_final_[i][j]['text']
+KeyError: 'text'
+[2023-10-22 14:05:35,051][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 14:05:35,173][worker-0][INFO] Initialized CORS
+[2023-10-22 14:05:35,174][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 14:06:51,890][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 14:06:52,008][worker-0][INFO] Initialized CORS
+[2023-10-22 14:06:52,009][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 14:07:56,966][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 14:07:57,087][worker-0][INFO] Initialized CORS
+[2023-10-22 14:07:57,088][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 14:10:51,099][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 14:10:51,219][worker-0][INFO] Initialized CORS
+[2023-10-22 14:10:51,220][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 14:12:00,633][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 14:12:00,750][worker-0][INFO] Initialized CORS
+[2023-10-22 14:12:00,751][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 14:13:46,313][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 14:13:46,436][worker-0][INFO] Initialized CORS
+[2023-10-22 14:13:46,436][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 14:16:14,491][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 14:16:14,608][worker-0][INFO] Initialized CORS
+[2023-10-22 14:16:14,608][worker-0][INFO] App Initialization is finished successfully
+[2023-10-22 14:45:34,279][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-22 14:45:34,405][worker-0][INFO] Initialized CORS
+[2023-10-22 14:45:34,406][worker-0][INFO] App Initialization is finished successfully
+[2023-10-27 13:53:37,648][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-27 13:53:37,912][worker-0][INFO] Initialized CORS
+[2023-10-27 13:53:37,913][worker-0][INFO] App Initialization is finished successfully
+[2023-10-27 13:55:28,806][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-27 13:55:28,932][worker-0][INFO] Initialized CORS
+[2023-10-27 13:55:28,932][worker-0][INFO] App Initialization is finished successfully
+[2023-10-27 13:58:37,729][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-27 13:58:37,860][worker-0][INFO] Initialized CORS
+[2023-10-27 13:58:37,860][worker-0][INFO] App Initialization is finished successfully
+[2023-10-27 14:12:18,918][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-27 14:12:19,061][worker-0][INFO] Initialized CORS
+[2023-10-27 14:12:19,062][worker-0][INFO] App Initialization is finished successfully
+[2023-10-27 14:13:56,790][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-27 14:13:56,916][worker-0][INFO] Initialized CORS
+[2023-10-27 14:13:56,917][worker-0][INFO] App Initialization is finished successfully
+[2023-10-27 14:15:31,855][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-27 14:15:31,975][worker-0][INFO] Initialized CORS
+[2023-10-27 14:15:31,976][worker-0][INFO] App Initialization is finished successfully
+[2023-10-27 14:17:32,691][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-27 14:17:32,818][worker-0][INFO] Initialized CORS
+[2023-10-27 14:17:32,818][worker-0][INFO] App Initialization is finished successfully
+[2023-10-27 14:17:41,883][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-27 14:17:41,992][worker-0][INFO] Initialized CORS
+[2023-10-27 14:17:41,993][worker-0][INFO] App Initialization is finished successfully
+[2023-10-27 14:19:36,202][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-27 14:19:36,322][worker-0][INFO] Initialized CORS
+[2023-10-27 14:19:36,322][worker-0][INFO] App Initialization is finished successfully
+[2023-10-27 14:20:22,317][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-27 14:20:22,435][worker-0][INFO] Initialized CORS
+[2023-10-27 14:20:22,436][worker-0][INFO] App Initialization is finished successfully
+[2023-10-27 14:22:53,616][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-27 14:22:53,752][worker-0][INFO] Initialized CORS
+[2023-10-27 14:22:53,753][worker-0][INFO] App Initialization is finished successfully
+[2023-10-27 14:23:06,168][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-27 14:23:06,272][worker-0][INFO] Initialized CORS
+[2023-10-27 14:23:06,272][worker-0][INFO] App Initialization is finished successfully
+[2023-10-27 14:25:30,393][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-27 14:25:30,510][worker-0][INFO] Initialized CORS
+[2023-10-27 14:25:30,511][worker-0][INFO] App Initialization is finished successfully
+[2023-10-27 14:25:38,925][worker-0][ERROR] 'font_text'
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 67, in upload_bill
+    if dict_final_[i][j]['font_text']==' ' or dict_final_[i][j]['font_text']=='':
+KeyError: 'font_text'
+[2023-10-27 14:26:55,999][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-27 14:26:56,115][worker-0][INFO] Initialized CORS
+[2023-10-27 14:26:56,115][worker-0][INFO] App Initialization is finished successfully
+[2023-10-27 14:27:06,680][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-27 14:27:06,790][worker-0][INFO] Initialized CORS
+[2023-10-27 14:27:06,790][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 02:46:42,498][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 02:46:42,658][worker-0][INFO] Initialized CORS
+[2023-10-28 02:46:42,658][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 02:48:41,794][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 02:48:41,912][worker-0][INFO] Initialized CORS
+[2023-10-28 02:48:41,912][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 02:50:45,370][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 02:50:45,486][worker-0][INFO] Initialized CORS
+[2023-10-28 02:50:45,487][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 02:55:51,178][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 02:55:51,296][worker-0][INFO] Initialized CORS
+[2023-10-28 02:55:51,297][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 02:57:18,041][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 02:57:18,160][worker-0][INFO] Initialized CORS
+[2023-10-28 02:57:18,160][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 02:58:15,426][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 02:58:15,543][worker-0][INFO] Initialized CORS
+[2023-10-28 02:58:15,543][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 02:59:06,145][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 02:59:06,258][worker-0][INFO] Initialized CORS
+[2023-10-28 02:59:06,259][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 03:01:12,022][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 03:01:12,023][worker-0][ERROR] An error happened during initializing app components: EOL while scanning string literal (__init__.py, line 54)
+[2023-10-28 03:01:21,103][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 03:01:21,221][worker-0][INFO] Initialized CORS
+[2023-10-28 03:01:21,222][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 03:03:06,334][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 03:03:06,454][worker-0][INFO] Initialized CORS
+[2023-10-28 03:03:06,454][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 03:03:33,321][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 03:03:33,431][worker-0][INFO] Initialized CORS
+[2023-10-28 03:03:33,431][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 03:03:57,617][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 03:03:57,732][worker-0][INFO] Initialized CORS
+[2023-10-28 03:03:57,732][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 03:05:05,923][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 03:05:06,046][worker-0][INFO] Initialized CORS
+[2023-10-28 03:05:06,046][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 03:06:37,861][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 03:06:37,983][worker-0][INFO] Initialized CORS
+[2023-10-28 03:06:37,983][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 03:06:40,381][worker-0][ERROR] 0
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 59, in upload_bill
+    count_urls_, count_images_, dict_final_,pdf_document_page_count = get_final_result(os.path.join(pdf_docs, filename))
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 32, in get_final_result
+    dict_final_, pdf_document_page_count = text_font(pdf_file)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 76, in text_font
+    font_sizes = get_font_size(page)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 65, in get_font_size
+    temp_dic_[data_1][i][jk] = {"font_sizes": font_sizes, "font_font": font_font, "font_text": font_text}
+KeyError: 0
+[2023-10-28 12:38:41,980][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 12:38:42,124][worker-0][INFO] Initialized CORS
+[2023-10-28 12:38:42,124][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 12:40:06,088][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 12:40:06,209][worker-0][INFO] Initialized CORS
+[2023-10-28 12:40:06,209][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 12:40:38,061][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 12:40:38,170][worker-0][INFO] Initialized CORS
+[2023-10-28 12:40:38,171][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 12:43:59,856][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 12:43:59,977][worker-0][INFO] Initialized CORS
+[2023-10-28 12:43:59,977][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 12:44:37,959][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 12:44:38,068][worker-0][INFO] Initialized CORS
+[2023-10-28 12:44:38,069][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 12:47:12,653][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 12:47:12,766][worker-0][INFO] Initialized CORS
+[2023-10-28 12:47:12,766][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 12:47:59,836][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 12:47:59,955][worker-0][INFO] Initialized CORS
+[2023-10-28 12:47:59,956][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 12:49:24,944][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 12:49:25,066][worker-0][INFO] Initialized CORS
+[2023-10-28 12:49:25,066][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 12:50:32,767][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 12:50:32,885][worker-0][INFO] Initialized CORS
+[2023-10-28 12:50:32,886][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 12:52:13,372][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 12:52:13,488][worker-0][INFO] Initialized CORS
+[2023-10-28 12:52:13,489][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 12:52:51,582][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 12:52:51,702][worker-0][INFO] Initialized CORS
+[2023-10-28 12:52:51,703][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 12:53:37,857][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 12:53:37,966][worker-0][INFO] Initialized CORS
+[2023-10-28 12:53:37,966][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 12:54:02,225][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 12:54:02,332][worker-0][INFO] Initialized CORS
+[2023-10-28 12:54:02,332][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 12:55:13,345][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 12:55:13,452][worker-0][INFO] Initialized CORS
+[2023-10-28 12:55:13,453][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 12:56:42,566][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 12:56:42,679][worker-0][INFO] Initialized CORS
+[2023-10-28 12:56:42,679][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 12:56:58,164][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 12:56:58,267][worker-0][INFO] Initialized CORS
+[2023-10-28 12:56:58,268][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 12:57:42,737][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 12:57:42,856][worker-0][INFO] Initialized CORS
+[2023-10-28 12:57:42,857][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:15:48,194][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:15:48,326][worker-0][INFO] Initialized CORS
+[2023-10-28 13:15:48,327][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:17:40,457][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:17:40,578][worker-0][INFO] Initialized CORS
+[2023-10-28 13:17:40,578][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:18:02,365][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:18:02,473][worker-0][INFO] Initialized CORS
+[2023-10-28 13:18:02,473][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:19:26,701][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:19:26,820][worker-0][INFO] Initialized CORS
+[2023-10-28 13:19:26,821][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:20:06,018][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:20:06,136][worker-0][INFO] Initialized CORS
+[2023-10-28 13:20:06,136][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:20:33,059][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:20:33,167][worker-0][INFO] Initialized CORS
+[2023-10-28 13:20:33,167][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:20:57,704][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:20:57,819][worker-0][INFO] Initialized CORS
+[2023-10-28 13:20:57,819][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:22:45,515][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:22:45,635][worker-0][INFO] Initialized CORS
+[2023-10-28 13:22:45,636][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:22:57,519][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:22:57,628][worker-0][INFO] Initialized CORS
+[2023-10-28 13:22:57,628][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:25:13,651][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:25:13,770][worker-0][INFO] Initialized CORS
+[2023-10-28 13:25:13,771][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:30:01,731][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:30:01,850][worker-0][INFO] Initialized CORS
+[2023-10-28 13:30:01,851][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:30:08,368][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:30:08,458][worker-0][INFO] Initialized CORS
+[2023-10-28 13:30:08,459][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:31:27,403][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:31:27,521][worker-0][INFO] Initialized CORS
+[2023-10-28 13:31:27,521][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:38:06,647][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:38:06,787][worker-0][INFO] Initialized CORS
+[2023-10-28 13:38:06,788][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:42:26,982][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:42:27,123][worker-0][INFO] Initialized CORS
+[2023-10-28 13:42:27,123][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:43:49,722][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:43:49,855][worker-0][INFO] Initialized CORS
+[2023-10-28 13:43:49,855][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:44:55,836][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:44:55,955][worker-0][INFO] Initialized CORS
+[2023-10-28 13:44:55,956][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:46:20,801][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:46:20,924][worker-0][INFO] Initialized CORS
+[2023-10-28 13:46:20,924][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:46:23,584][worker-0][ERROR] '<' not supported between instances of 'collections.OrderedDict' and 'collections.OrderedDict'
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 59, in upload_bill
+    count_urls_, count_images_, dict_final_,pdf_document_page_count = get_final_result(os.path.join(pdf_docs, filename))
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 33, in get_final_result
+    dict_final_, pdf_document_page_count = text_font(pdf_file)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 102, in text_font
+    dict_final_ =  OrderedDict(sorted(dict_final_.items(), key=lambda t: t[1]))
+TypeError: '<' not supported between instances of 'collections.OrderedDict' and 'collections.OrderedDict'
+[2023-10-28 13:47:22,121][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:47:22,255][worker-0][INFO] Initialized CORS
+[2023-10-28 13:47:22,255][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:47:24,651][worker-0][ERROR] '<' not supported between instances of 'dict' and 'dict'
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 59, in upload_bill
+    count_urls_, count_images_, dict_final_,pdf_document_page_count = get_final_result(os.path.join(pdf_docs, filename))
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 33, in get_final_result
+    dict_final_, pdf_document_page_count = text_font(pdf_file)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/packages/__init__.py", line 102, in text_font
+    dict_final_ = OrderedDict(sorted(dict_final_.items(), key=lambda t: t[1]))
+TypeError: '<' not supported between instances of 'dict' and 'dict'
+[2023-10-28 13:48:08,781][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:48:08,916][worker-0][INFO] Initialized CORS
+[2023-10-28 13:48:08,917][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 13:49:12,891][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 13:49:13,032][worker-0][INFO] Initialized CORS
+[2023-10-28 13:49:13,033][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 14:02:46,160][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 14:02:46,291][worker-0][INFO] Initialized CORS
+[2023-10-28 14:02:46,292][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 14:03:28,981][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 14:03:29,104][worker-0][INFO] Initialized CORS
+[2023-10-28 14:03:29,105][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 14:04:05,532][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 14:04:05,651][worker-0][INFO] Initialized CORS
+[2023-10-28 14:04:05,652][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 14:04:48,706][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 14:04:48,832][worker-0][INFO] Initialized CORS
+[2023-10-28 14:04:48,832][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 14:05:39,822][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 14:05:39,942][worker-0][INFO] Initialized CORS
+[2023-10-28 14:05:39,943][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 14:05:42,226][worker-0][ERROR] 'dict' object has no attribute 'status_code'
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 99, in upload_bill
+    resp.status_code = 200
+AttributeError: 'dict' object has no attribute 'status_code'
+[2023-10-28 14:05:56,795][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 14:05:56,905][worker-0][INFO] Initialized CORS
+[2023-10-28 14:05:56,905][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 14:07:39,009][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 14:07:39,124][worker-0][INFO] Initialized CORS
+[2023-10-28 14:07:39,124][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 14:17:44,643][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 14:17:44,779][worker-0][INFO] Initialized CORS
+[2023-10-28 14:17:44,779][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 14:19:01,926][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 14:19:02,048][worker-0][INFO] Initialized CORS
+[2023-10-28 14:19:02,048][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 14:19:31,537][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 14:19:31,652][worker-0][INFO] Initialized CORS
+[2023-10-28 14:19:31,652][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 14:24:00,057][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 14:24:00,193][worker-0][INFO] Initialized CORS
+[2023-10-28 14:24:00,193][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 14:24:46,674][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 14:24:46,794][worker-0][INFO] Initialized CORS
+[2023-10-28 14:24:46,795][worker-0][INFO] App Initialization is finished successfully
+[2023-10-28 14:26:09,890][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-10-28 14:26:10,006][worker-0][INFO] Initialized CORS
+[2023-10-28 14:26:10,007][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 22:57:09,275][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 22:57:09,412][worker-0][INFO] Initialized CORS
+[2023-11-03 22:57:09,412][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:11:48,922][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:11:49,063][worker-0][INFO] Initialized CORS
+[2023-11-03 23:11:49,063][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:16:11,874][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:16:11,998][worker-0][INFO] Initialized CORS
+[2023-11-03 23:16:11,999][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:18:23,724][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:18:23,831][worker-0][INFO] Initialized CORS
+[2023-11-03 23:18:23,831][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:19:02,004][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:19:02,108][worker-0][INFO] Initialized CORS
+[2023-11-03 23:19:02,108][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:19:50,335][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:19:50,440][worker-0][INFO] Initialized CORS
+[2023-11-03 23:19:50,441][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:20:21,304][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:20:21,413][worker-0][INFO] Initialized CORS
+[2023-11-03 23:20:21,413][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:24:35,577][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:24:35,692][worker-0][INFO] Initialized CORS
+[2023-11-03 23:24:35,692][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:25:08,632][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:25:08,741][worker-0][INFO] Initialized CORS
+[2023-11-03 23:25:08,741][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:25:37,754][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:25:37,861][worker-0][INFO] Initialized CORS
+[2023-11-03 23:25:37,862][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:25:54,216][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:25:54,307][worker-0][INFO] Initialized CORS
+[2023-11-03 23:25:54,307][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:26:17,019][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:26:17,121][worker-0][INFO] Initialized CORS
+[2023-11-03 23:26:17,121][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:30:08,633][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:30:08,758][worker-0][INFO] Initialized CORS
+[2023-11-03 23:30:08,758][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:33:34,583][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:33:34,701][worker-0][INFO] Initialized CORS
+[2023-11-03 23:33:34,701][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:34:43,764][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:34:43,872][worker-0][INFO] Initialized CORS
+[2023-11-03 23:34:43,872][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:35:57,992][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:35:58,098][worker-0][INFO] Initialized CORS
+[2023-11-03 23:35:58,098][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:38:12,589][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:38:12,712][worker-0][INFO] Initialized CORS
+[2023-11-03 23:38:12,713][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:39:55,606][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:39:55,724][worker-0][INFO] Initialized CORS
+[2023-11-03 23:39:55,724][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:40:42,880][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:40:42,975][worker-0][INFO] Initialized CORS
+[2023-11-03 23:40:42,975][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:40:58,837][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:40:58,942][worker-0][INFO] Initialized CORS
+[2023-11-03 23:40:58,943][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:43:14,596][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:43:14,727][worker-0][INFO] Initialized CORS
+[2023-11-03 23:43:14,728][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:46:37,206][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:46:37,325][worker-0][INFO] Initialized CORS
+[2023-11-03 23:46:37,325][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:47:07,954][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:47:08,072][worker-0][INFO] Initialized CORS
+[2023-11-03 23:47:08,072][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:48:07,632][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:48:07,751][worker-0][INFO] Initialized CORS
+[2023-11-03 23:48:07,752][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:49:12,748][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:49:12,870][worker-0][INFO] Initialized CORS
+[2023-11-03 23:49:12,870][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:52:01,652][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:52:01,773][worker-0][INFO] Initialized CORS
+[2023-11-03 23:52:01,773][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:52:16,181][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:52:16,285][worker-0][INFO] Initialized CORS
+[2023-11-03 23:52:16,285][worker-0][INFO] App Initialization is finished successfully
+[2023-11-03 23:52:31,117][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-03 23:52:31,223][worker-0][INFO] Initialized CORS
+[2023-11-03 23:52:31,223][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:02:38,387][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:02:38,510][worker-0][INFO] Initialized CORS
+[2023-11-04 00:02:38,511][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:04:10,472][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:04:10,584][worker-0][INFO] Initialized CORS
+[2023-11-04 00:04:10,585][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:22:00,736][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:22:00,868][worker-0][INFO] Initialized CORS
+[2023-11-04 00:22:00,868][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:22:17,279][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:22:17,386][worker-0][INFO] Initialized CORS
+[2023-11-04 00:22:17,386][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:24:01,374][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:24:01,499][worker-0][INFO] Initialized CORS
+[2023-11-04 00:24:01,499][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:24:35,815][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:24:35,925][worker-0][INFO] Initialized CORS
+[2023-11-04 00:24:35,925][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:24:37,907][worker-0][ERROR] 0
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 65, in upload_bill
+    print('dict_final_',dict_final_[i])
+KeyError: 0
+[2023-11-04 00:25:25,992][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:25:26,112][worker-0][INFO] Initialized CORS
+[2023-11-04 00:25:26,112][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:25:39,634][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:25:39,740][worker-0][INFO] Initialized CORS
+[2023-11-04 00:25:39,740][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:25:50,590][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:25:50,695][worker-0][INFO] Initialized CORS
+[2023-11-04 00:25:50,695][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:25:56,289][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:25:56,404][worker-0][INFO] Initialized CORS
+[2023-11-04 00:25:56,405][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:26:46,012][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:26:46,129][worker-0][INFO] Initialized CORS
+[2023-11-04 00:26:46,130][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:27:10,185][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:27:10,293][worker-0][INFO] Initialized CORS
+[2023-11-04 00:27:10,294][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:27:55,554][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:27:55,669][worker-0][INFO] Initialized CORS
+[2023-11-04 00:27:55,669][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:32:49,355][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:32:49,473][worker-0][INFO] Initialized CORS
+[2023-11-04 00:32:49,474][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:32:52,041][worker-0][ERROR] 'font_line'
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 69, in upload_bill
+    if str(dict_final_[i][j][k]['font_line']).strip() == '' or dict_final_[i][j]['font_line'] == '':
+KeyError: 'font_line'
+[2023-11-04 00:33:13,620][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:33:13,732][worker-0][INFO] Initialized CORS
+[2023-11-04 00:33:13,732][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:33:37,876][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:33:37,993][worker-0][INFO] Initialized CORS
+[2023-11-04 00:33:37,994][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:34:17,509][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:34:17,624][worker-0][INFO] Initialized CORS
+[2023-11-04 00:34:17,624][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:42:41,681][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:42:41,810][worker-0][INFO] Initialized CORS
+[2023-11-04 00:42:41,810][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:42:54,294][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:42:54,400][worker-0][INFO] Initialized CORS
+[2023-11-04 00:42:54,401][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:42:58,825][worker-0][ERROR] 'font_line'
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 68, in upload_bill
+    if str(dict_final_[i][j][k]['font_line']).strip() == '' or dict_final_[i][j]['font_line'] == '':
+KeyError: 'font_line'
+[2023-11-04 00:44:08,645][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:44:08,770][worker-0][INFO] Initialized CORS
+[2023-11-04 00:44:08,771][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:45:02,976][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:45:03,094][worker-0][INFO] Initialized CORS
+[2023-11-04 00:45:03,095][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:45:43,749][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:45:43,870][worker-0][INFO] Initialized CORS
+[2023-11-04 00:45:43,870][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:45:48,600][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:45:48,691][worker-0][INFO] Initialized CORS
+[2023-11-04 00:45:48,692][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:45:50,862][worker-0][ERROR] list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 73, in upload_bill
+    font_=dict_final_[i][j][k]['font_font_type'][fnt]
+TypeError: list indices must be integers or slices, not str
+[2023-11-04 00:47:15,120][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:47:15,235][worker-0][INFO] Initialized CORS
+[2023-11-04 00:47:15,235][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:47:50,885][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:47:51,001][worker-0][INFO] Initialized CORS
+[2023-11-04 00:47:51,002][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:54:09,629][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:54:09,762][worker-0][INFO] Initialized CORS
+[2023-11-04 00:54:09,762][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:54:41,878][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:54:41,984][worker-0][INFO] Initialized CORS
+[2023-11-04 00:54:41,985][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 00:56:09,065][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 00:56:09,190][worker-0][INFO] Initialized CORS
+[2023-11-04 00:56:09,191][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:02:24,200][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:02:24,322][worker-0][INFO] Initialized CORS
+[2023-11-04 01:02:24,322][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:04:09,439][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:04:09,562][worker-0][INFO] Initialized CORS
+[2023-11-04 01:04:09,563][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:05:26,848][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:05:26,964][worker-0][INFO] Initialized CORS
+[2023-11-04 01:05:26,965][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:08:42,750][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:08:42,882][worker-0][INFO] Initialized CORS
+[2023-11-04 01:08:42,882][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:14:51,940][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:14:52,066][worker-0][INFO] Initialized CORS
+[2023-11-04 01:14:52,066][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:29:20,390][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:29:20,664][worker-0][INFO] Initialized CORS
+[2023-11-04 01:29:20,665][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:30:06,754][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:30:06,872][worker-0][INFO] Initialized CORS
+[2023-11-04 01:30:06,873][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:31:25,920][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:31:26,046][worker-0][INFO] Initialized CORS
+[2023-11-04 01:31:26,047][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:31:36,051][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:31:36,163][worker-0][INFO] Initialized CORS
+[2023-11-04 01:31:36,164][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:34:55,989][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:34:56,106][worker-0][INFO] Initialized CORS
+[2023-11-04 01:34:56,106][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:35:31,337][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:35:31,459][worker-0][INFO] Initialized CORS
+[2023-11-04 01:35:31,460][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:36:46,182][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:36:46,310][worker-0][INFO] Initialized CORS
+[2023-11-04 01:36:46,310][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:37:09,011][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:37:09,220][worker-0][INFO] Initialized CORS
+[2023-11-04 01:37:09,222][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:37:16,839][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:37:16,965][worker-0][INFO] Initialized CORS
+[2023-11-04 01:37:16,965][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:40:03,346][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:40:03,474][worker-0][INFO] Initialized CORS
+[2023-11-04 01:40:03,475][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:42:20,237][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:42:20,356][worker-0][INFO] Initialized CORS
+[2023-11-04 01:42:20,356][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:44:09,316][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:44:09,437][worker-0][INFO] Initialized CORS
+[2023-11-04 01:44:09,437][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:45:21,042][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:45:21,163][worker-0][INFO] Initialized CORS
+[2023-11-04 01:45:21,163][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:45:46,152][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:45:46,258][worker-0][INFO] Initialized CORS
+[2023-11-04 01:45:46,258][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 01:48:07,378][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 01:48:07,494][worker-0][INFO] Initialized CORS
+[2023-11-04 01:48:07,494][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 09:16:32,562][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 09:16:32,710][worker-0][INFO] Initialized CORS
+[2023-11-04 09:16:32,710][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 09:39:06,437][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 09:39:06,570][worker-0][INFO] Initialized CORS
+[2023-11-04 09:39:06,570][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 09:40:59,784][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 09:40:59,905][worker-0][INFO] Initialized CORS
+[2023-11-04 09:40:59,905][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:03:41,882][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:03:42,011][worker-0][INFO] Initialized CORS
+[2023-11-04 10:03:42,012][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:03:55,895][worker-0][ERROR] 'enumerate' is undefined
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 158, in upload_bill
+    return render_template("index.html", top_4_font_size_=top_4_font_size_,
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/flask/templating.py", line 137, in render_template
+    return _render(
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/templates/index.html", line 252, in top-level template code
+    {% for index, name in enumerate(percentage_dict_size) %}
+jinja2.exceptions.UndefinedError: 'enumerate' is undefined
+[2023-11-04 10:10:27,490][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:10:27,615][worker-0][INFO] Initialized CORS
+[2023-11-04 10:10:27,615][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:13:38,473][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:13:38,594][worker-0][INFO] Initialized CORS
+[2023-11-04 10:13:38,594][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:13:49,411][worker-0][ERROR] 'dict object' has no attribute 'key'
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 158, in upload_bill
+    return render_template("index.html", top_4_font_size_=top_4_font_size_,
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/flask/templating.py", line 137, in render_template
+    return _render(
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/templates/index.html", line 252, in top-level template code
+    {% set values_set = percentage_dict_size.key() %}
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'key'
+[2023-11-04 10:14:40,054][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:14:40,169][worker-0][INFO] Initialized CORS
+[2023-11-04 10:14:40,170][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:16:29,193][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:16:29,314][worker-0][INFO] Initialized CORS
+[2023-11-04 10:16:29,315][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:16:38,743][worker-0][ERROR] 'dict_keys' object cannot be interpreted as an integer
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 158, in upload_bill
+    return render_template("index.html", top_4_font_size_=top_4_font_size_,
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/flask/templating.py", line 137, in render_template
+    return _render(
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/templates/index.html", line 254, in top-level template code
+    {% for name in range(values_set) %}
+TypeError: 'dict_keys' object cannot be interpreted as an integer
+[2023-11-04 10:17:11,471][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:17:11,587][worker-0][INFO] Initialized CORS
+[2023-11-04 10:17:11,588][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:17:19,028][worker-0][ERROR] 'int' object is not iterable
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 158, in upload_bill
+    return render_template("index.html", top_4_font_size_=top_4_font_size_,
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/flask/templating.py", line 137, in render_template
+    return _render(
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/templates/index.html", line 254, in top-level template code
+    {% for name in values_set|length %}
+TypeError: 'int' object is not iterable
+[2023-11-04 10:18:32,715][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:18:32,843][worker-0][INFO] Initialized CORS
+[2023-11-04 10:18:32,844][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:23:03,557][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:23:03,685][worker-0][INFO] Initialized CORS
+[2023-11-04 10:23:03,686][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:24:19,714][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:24:19,830][worker-0][INFO] Initialized CORS
+[2023-11-04 10:24:19,830][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:26:38,568][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:26:38,691][worker-0][INFO] Initialized CORS
+[2023-11-04 10:26:38,691][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:27:30,965][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:27:31,088][worker-0][INFO] Initialized CORS
+[2023-11-04 10:27:31,088][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:30:24,589][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:30:24,707][worker-0][INFO] Initialized CORS
+[2023-11-04 10:30:24,708][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:30:41,074][worker-0][ERROR] 'enumerate' is undefined
+Traceback (most recent call last):
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/views.py", line 158, in upload_bill
+    return render_template("index.html", top_4_font_size_=top_4_font_size_,
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/flask/templating.py", line 137, in render_template
+    return _render(
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/Users/sandeepkumarrudhravaram/opt/anaconda3/envs/pdf_analyzer_v1/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/sandeepkumarrudhravaram/UNTMastersProjects/pdf_analyzer_prodv1/portal/templates/index.html", line 253, in top-level template code
+    {% for index, name in enumerate(percentage_dict_size) %}
+jinja2.exceptions.UndefinedError: 'enumerate' is undefined
+[2023-11-04 10:32:30,714][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:32:30,831][worker-0][INFO] Initialized CORS
+[2023-11-04 10:32:30,832][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:33:00,326][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:33:00,438][worker-0][INFO] Initialized CORS
+[2023-11-04 10:33:00,438][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:33:57,132][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:33:57,248][worker-0][INFO] Initialized CORS
+[2023-11-04 10:33:57,248][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:35:39,832][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:35:39,949][worker-0][INFO] Initialized CORS
+[2023-11-04 10:35:39,949][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:36:03,408][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:36:03,514][worker-0][INFO] Initialized CORS
+[2023-11-04 10:36:03,515][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:37:51,591][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:37:51,713][worker-0][INFO] Initialized CORS
+[2023-11-04 10:37:51,714][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:38:44,322][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:38:44,440][worker-0][INFO] Initialized CORS
+[2023-11-04 10:38:44,440][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:42:45,586][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:42:45,705][worker-0][INFO] Initialized CORS
+[2023-11-04 10:42:45,706][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:46:04,029][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:46:04,151][worker-0][INFO] Initialized CORS
+[2023-11-04 10:46:04,152][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:46:35,880][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:46:35,991][worker-0][INFO] Initialized CORS
+[2023-11-04 10:46:35,991][worker-0][INFO] App Initialization is finished successfully
+[2023-11-04 10:55:37,605][worker-0][INFO] Initialized logger with level 10 for worker 0
+[2023-11-04 10:55:37,739][worker-0][INFO] Initialized CORS
+[2023-11-04 10:55:37,739][worker-0][INFO] App Initialization is finished successfully

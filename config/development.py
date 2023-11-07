@@ -14,13 +14,15 @@ SESSION_COOKIE_NAME = "PDFAnalyzerX_session"
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.abspath(__file__), '..', '..'))
 LOG_DIR = os.path.join(ROOT_DIR, 'logs')
-DOC_DIR = os.path.join(ROOT_DIR, 'claim_docs')
-TEMP_DIR = os.path.join(ROOT_DIR, 'temp')
+PDF_DIR = os.path.join(ROOT_DIR, 'pdf_docs')
 DATA_DIR = os.path.join(ROOT_DIR, "portal")
+STATIC_DIRECTORY = os.path.join(ROOT_DIR, "portal","static")
 
-DIRECTORIES = [LOG_DIR, DOC_DIR, TEMP_DIR]
+DIRECTORIES = [LOG_DIR, PDF_DIR]
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif', 'zip', 'rar', '7z'}
 SECRET_KEY = "Kc5c3zTk'-3<&BdL:P92O{_(:-NkY+"
+
+
 
 PROPAGATE_EXCEPTIONS = True
 
