@@ -18,7 +18,7 @@
 
 :root {
   --c-action-primary: #007c3b;
-  --c-action-primary-accent: #066a25f;
+  --c-action-primary-accent: #e9e5ff;
   --c-action-secondary: #e5e5e5;
   --c-text-primary: #0d0f21;
   --c-text-secondary: #6a6b76;
@@ -149,7 +149,7 @@ textarea {
 }
 
 .btn-secondary,
-.btn-upload {
+.btn-primary {
   padding: 0.5rem 1rem;
   font-weight: 500;
   border: 2px solid var(--c-action-secondary);
@@ -157,20 +157,11 @@ textarea {
   background-color: transparent;
 }
 
-.btn-upload {
+.btn-primary {
   color: #fff;
   background-color: var(--c-action-primary);
   border-color: var(--c-action-primary);
 }
-
-.btn-upload:active, .btn-upload:focus, .btn-upload:hover {
-    border-color: #066a25
-    background-color: #066a25 }
-  .btn-upload:focus {
-    box-shadow: 0 0 0 0.25rem #066a25; }
-  .btn-upload:disabled, .btn-upload.disabled {
-    background-color: #28824);
-    border-color: #28824; }
 
  input[type=file] {
   opacity: 0;
@@ -293,16 +284,37 @@ textarea {
 	</div>
 	<div class="modal1-footer">
 		<button class="btn-secondary">Cancel</button>
-		<button class="btn-upload" onclick="submitForms_file()">Upload File</button>
+		<button class="btn-primary" onclick="submitForms_file()">Upload File</button>
 	</div>
 </div>
 </body>
+  <script src="/PDFAnalyzerX/static/api_calls/vendor/jquery-3.3.1.min.js"></script>
+  {#
+  <script>window.jQuery || document.write('<script src="/PDFAnalyzerX/static/api_calls/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  #}
+  <script src="/PDFAnalyzerX/static/api_calls/jquery-ui.min.js"></script>
+  <script src="/PDFAnalyzerX/static/api_calls/jquery.ui.touch-punch.min.js"></script>
+  <script src="/PDFAnalyzerX/static/api_calls/bootstrap.bundle.min.js"></script>
 
 <script>
-submitForms_file = function () {
-		document.getElementById("multiform").action = '/PDFAnalyzerX/upload_pdf';
-		document.getElementById("multiform").submit();
-		return true;
-    }
+function submitForms_file() {
+    fetch('/PDFAnalyzerX/get_random_numbers/', {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(response => response.json())
+    .then(data => {
+        const random_numbers = data['random_numbers'];
+        document.getElementById("multiform").action = '/PDFAnalyzerX/upload_pdf/' + random_numbers;
+        document.getElementById("multiform").submit();
+        return true;
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+}
+
 </script>
 </html>

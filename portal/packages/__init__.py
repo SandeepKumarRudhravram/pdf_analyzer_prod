@@ -34,18 +34,20 @@ def count_custom_urls_in_pdf(pdf_file):
     return url_count
 
 
-def get_final_result(pdf_file):
+def get_final_result(pdf_file,process_id=''):
     count_urls_ = count_custom_urls_in_pdf(pdf_file)
-    count_images_ = count_images_in_pdf(pdf_file)
-    dict_final_, pdf_document_page_count,counYimg_fr_pdf_ = text_font(pdf_file)
+    # count_images_ = count_images_in_pdf(pdf_file)
+    dict_final_, pdf_document_page_count,counYimg_fr_pdf_ = text_font(pdf_file,process_id)
     return count_urls_, counYimg_fr_pdf_, dict_final_, pdf_document_page_count
 
 
-def save_image(image_data, image_name):
-    with open(os.path.join(APP.config["PDF_IMAGES_PDF"], image_name), "wb") as img_file:
+def save_image(image_data, image_name,process_id):
+    if not os.path.exists(os.path.join(APP.config["PDF_IMAGES_PDF"],process_id)):
+        os.mkdir(os.path.join(APP.config["PDF_IMAGES_PDF"],process_id))
+    with open(os.path.join(APP.config["PDF_IMAGES_PDF"],process_id, image_name), "wb") as img_file:
         img_file.write(image_data)
 
-def get_font_size(page,counYimg_fr_pdf_):
+def get_font_size(page,counYimg_fr_pdf_,process_id=''):
     temp_dic_ = {}
     tmp_counYimg_fr_pdf_=counYimg_fr_pdf_
     try:
@@ -55,7 +57,6 @@ def get_font_size(page,counYimg_fr_pdf_):
             # print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
             # print("data_1",temp_data_[data_1])
             # print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
-
             try:
                 text_1 = temp_data_[data_1]["lines"]
             except:
@@ -63,9 +64,9 @@ def get_font_size(page,counYimg_fr_pdf_):
                     text_1 = []
                     text_12 = temp_data_[data_1]["image"]
                     tmp_counYimg_fr_pdf_ = tmp_counYimg_fr_pdf_ + 1
-                    img_index = "original"+ datetime.now().strftime("%d%m%Y%H%M%S") + get_random_numbers(5)+ str(tmp_counYimg_fr_pdf_)
+                    img_index = process_id + str(tmp_counYimg_fr_pdf_)
                     image_filename = f"{img_index}.png"
-                    save_image(text_12,image_filename)
+                    save_image(text_12,image_filename,process_id)
                 except:
                     text_1 = []
             for i in range(len(text_1)):
@@ -95,20 +96,18 @@ def get_font_size(page,counYimg_fr_pdf_):
                     line_total_text_ = ''
                     line_font_ = []
                     line_size = []
-
-
     except:
         temp_dic_ = {}
     return temp_dic_,tmp_counYimg_fr_pdf_
 
 
-def text_font(pdf_path):
+def text_font(pdf_path,process_id):
     pdf_document = fitz.open(pdf_path)
     dict_final_ = {}
     counYimg_fr_pdf_=0
     for page_number in range(pdf_document.page_count):
         page = pdf_document.load_page(page_number)
-        font_sizes,counYimg_fr_pdf_ = get_font_size(page,counYimg_fr_pdf_)
+        font_sizes,counYimg_fr_pdf_ = get_font_size(page,counYimg_fr_pdf_,process_id)
         font_sizes = font_sizes
         dict_final_[str(page_number)] = font_sizes
 
