@@ -357,6 +357,7 @@
 	<script src="/PDFAnalyzerX/static/js/dlabnav-init.js"></script>
 	<script src="/PDFAnalyzerX/static/js/demo.js"></script>
     <script src="/PDFAnalyzerX/static/js/styleSwitcher.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.1/xlsx.full.min.js"></script>
 
 	<script>
 		var data_for_myChartBarSection = {{ percentage_dict_types| tojson | safe}};
@@ -397,6 +398,44 @@
 		  });
 </script>
 <script>
+	var polarChart = function(){
+		var ctx = document.getElementById("polarChart");
+		Chart.defaults.global.legend.display = false;
+		var myChart = new Chart(ctx, {
+			type: 'polarArea',
+			data: {
+				labels: ["10px", "12px", "15px", "20px"],
+				datasets: [{
+					backgroundColor: [
+						"#496ecc",
+						"#68e365",
+						"#ffa755",
+						"#c8c8c8"
+					],
+					data: [40, 35, 30, 20]
+				}]
+			},
+			options: {
+				maintainAspectRatio: false,
+				scale: {
+					scaleShowLine:false,
+					display:false,
+					 pointLabels:{
+						fontSize: 0
+					 },
+				},
+				tooltips:{
+					y: {
+						formatter: function (val) {
+						  return  val + " % "
+						}
+					}
+				}
+			}
+		});
+	}
+</script>
+<script>
     const wordFrequencyData = [
       { word: 'example1', frequency: 10 },
       { word: 'example2', frequency: 8 },
@@ -428,6 +467,7 @@
       }
     });
 </script>
+<script></script>
 </body>
 
 </html>
