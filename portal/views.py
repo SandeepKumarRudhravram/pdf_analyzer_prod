@@ -173,7 +173,7 @@ def upload_bill():
             LOG.error(e, exc_info=True)
             resp = jsonify({"success": False,
                             "data": {"pdf name": "None"},
-                            "errors": "Something went wrong"})
+                            "errors": "Something went wrongj"})
             resp.status_code = 400
             return resp
     if request.method == "GET":
