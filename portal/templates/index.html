@@ -215,17 +215,22 @@
 												<h4 class="card-title">Font Family Analysis</h4>
 <!--												<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit psu olor</span>-->
 												<ul class="card-list mt-4">
-													{% set colors2 = ['#8f57eb','#fa997d', '#ecadd9', '#77e7ed', '#9ef4a2'] %}
-										            {% set num_colors2 = colors2|length %}
-										            {% for name2 in percentage_dict_types %}
-										            {% set color_index2 = (loop.index - 1) % num_colors2 %}
-													<li><span class="bg-blue circle" style="background: {{ colors2[color_index2] }};"></span>{{name2}}<span>{{percentage_dict_types[name2]}}</span>
-													</li>
-													{% endfor %}
-<!--													<li><span class="bg-success circle" style="background:#ecadd9;"></span>Pink<span>5%</span></li>-->
-<!--													<li><span class="bg-warning circle" style="background:#77e7ed"></span>Blue<span>45%</span></li>-->
-<!--													<li><span class="bg-light circle" style="background:#9ef4a2;"></span>Green<span>15%</span></li>-->
+													{% set colors2 = ['#fa997d', '#8f57eb', '#ecadd9', '#77e7ed', '#9ef4a2'] %}
+													{% set num_colors2 = colors2|length %}
+													{% if percentage_dict_types is not defined or percentage_dict_types|length == 0 %}
+														<li>
+															<span class="bg-blue circle" style="background: {{ colors2[0] }};"></span>None<span>100%</span>
+														</li>
+													{% else %}
+														{% for name2 in percentage_dict_types %}
+															{% set color_index2 = (loop.index - 1) % num_colors2 %}
+															<li>
+																<span class="bg-blue circle" style="background: {{ colors2[color_index2] }};"></span>{{name2}}<span>{{percentage_dict_types[name2]}}</span>
+															</li>
+														{% endfor %}
+													{% endif %}
 												</ul>
+
 											</div>
 											<div class="col-md-6">
 												<canvas id="piechart"></canvas>
@@ -352,15 +357,21 @@
 	<script src="/PDFAnalyzerX/static/js/dlabnav-init.js"></script>
 	<script src="/PDFAnalyzerX/static/js/demo.js"></script>
     <script src="/PDFAnalyzerX/static/js/styleSwitcher.js"></script>
+
 	<script>
 		var data_for_myChartBarSection = {{ percentage_dict_types| tojson | safe}};
 		var datasets_for_myChartBarSection = [];
 		var labels_data_for_myChartBarSection = [];
 
-		for (var key in data_for_myChartBarSection) {
-        datasets_for_myChartBarSection.push(data_for_myChartBarSection[key])
-        labels_data_for_myChartBarSection.push(key)
-    }
+		if (Object.keys(data_for_myChartBarSection).length === 0) {
+			datasets_for_myChartBarSection.push(100); // Default value as 100%
+			labels_data_for_myChartBarSection.push('None'); // Default label
+		} else {
+			for (var key in data_for_myChartBarSection) {
+			datasets_for_myChartBarSection.push(data_for_myChartBarSection[key])
+			labels_data_for_myChartBarSection.push(key)
+			}
+    	}
 
 		  const ctx = document.getElementById('piechart').getContext('2d');;
 		  Chart.defaults.global.legend.display = false;
@@ -370,7 +381,7 @@
 			labels: labels_data_for_myChartBarSection,
 			  datasets: [{
 				label: 'of Votes',
-				backgroundColor: ['#8f57eb','#fa997d', '#ecadd9', '#77e7ed', '#9ef4a2'],
+				backgroundColor: ['#fa997d', '#8f57eb', '#ecadd9', '#77e7ed', '#9ef4a2'],
 				data: datasets_for_myChartBarSection,
 				borderWidth: 1
 			  }]
