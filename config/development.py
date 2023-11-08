@@ -16,6 +16,7 @@ ROOT_DIR = os.path.abspath(os.path.join(os.path.abspath(__file__), '..', '..'))
 LOG_DIR = os.path.join(ROOT_DIR, 'logs')
 PDF_DIR = os.path.join(ROOT_DIR, 'pdf_docs')
 DATA_DIR = os.path.join(ROOT_DIR, "portal")
+PDF_IMAGES_PDF = os.path.join(ROOT_DIR, 'pdfimages')
 STATIC_DIRECTORY = os.path.join(ROOT_DIR, "portal","static")
 
 DIRECTORIES = [LOG_DIR, PDF_DIR]
