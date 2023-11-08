@@ -118,8 +118,7 @@ def upload_bill():
                     for j in dict_final_[i]:
                         for k in dict_final_[i][j]:
                             # print(dict_final_[i][j][k]['font_line'])
-                            if str(dict_final_[i][j][k]['font_line']).strip() == '' or dict_final_[i][j][k][
-                                'font_line'] == '':
+                            if str(dict_final_[i][j][k]['font_line']).strip() == '' or dict_final_[i][j][k]['font_line'] == '':
                                 pass
                             else:
                                 count_ = count_ + 1
@@ -132,7 +131,7 @@ def upload_bill():
 
                 top_4_fonts_types = dict(sorted(font_type_dict_.items(), key=lambda x: x[1], reverse=True)[:5])
                 total_counts_types = sum(font_type_dict_.values())
-                percentage_dict_types = {font: round((count / total_counts_types) * 100,2) for font, count in
+                percentage_dict_types = {font: round((count / total_counts_types) * 100, 2) for font, count in
                                          top_4_fonts_types.items()}
                 length_of_percentage_dict_types = len(percentage_dict_types)
                 # for font, percentage in percentage_dict_types.items():
@@ -140,7 +139,7 @@ def upload_bill():
 
                 top_4_font_size_ = dict(sorted(font_size_dict_.items(), key=lambda x: x[1], reverse=True)[:5])
                 total_counts_size = sum(font_size_dict_.values())
-                percentage_dict_size = {font: round((count / total_counts_size) * 100,2) for font, count in
+                percentage_dict_size = {font: round((count / total_counts_size) * 100, 2) for font, count in
                                         top_4_font_size_.items()}
                 length_of_percentage_dict_size = len(percentage_dict_size)
                 # for size, percentage in percentage_dict_size.items():

@@ -195,7 +195,7 @@
 											<div class="card-info text-white">
 												<img src="/PDFAnalyzerX/static/images/pattern/circle.png" class="mb-4" alt="">
 												<h2 class="text-white card-balance">{{count_}}</h2>
-												<p class="fs-16">PDF's are analyzed so for</p>
+												<p class="fs-16">Number Of Line In Pdf</p>
 												<span>+0.8% this week</span>
 											</div>
 <!--											<a class="change-btn" href="javascript:void(0);"><i class="fa fa-caret-up up-ico"></i>Change<span class="reload-icon"><i class="fas fa-sync-alt reload active"></i></span></a>-->
@@ -204,10 +204,10 @@
 									<div class="col-xl-6">
 										<div class="row  mt-xl-0 mt-4">
 											<div class="col-md-6">
-												<h4 class="card-title">Color Contrast</h4>
+												<h4 class="card-title">Fonts Used</h4>
 <!--												<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit psu olor</span>-->
 												<ul class="card-list mt-4">
-													{% set colors2 = ['#573b33', '#ecadd9', '#77e7ed', '#c8c8c8', '#9ef4a2'] %}
+													{% set colors2 = ['#8f57eb','#fa997d', '#ecadd9', '#77e7ed', '#9ef4a2'] %}
 										            {% set num_colors2 = colors2|length %}
 										            {% for name2 in percentage_dict_types %}
 										            {% set color_index2 = (loop.index - 1) % num_colors2 %}
@@ -805,34 +805,36 @@
 	<script src="/PDFAnalyzerX/static/js/demo.js"></script>
     <script src="/PDFAnalyzerX/static/js/styleSwitcher.js"></script>
 	<script>
-		var data_for_myChartBarSection = {{ percentage_dict_size| tojson | safe}};
+		var data_for_myChartBarSection = {{ percentage_dict_types| tojson | safe}};
 		var datasets_for_myChartBarSection = [];
 		var labels_data_for_myChartBarSection = [];
+
+		for (var key in data_for_myChartBarSection) {
+        datasets_for_myChartBarSection.push(data_for_myChartBarSection[key])
+        labels_data_for_myChartBarSection.push(key)
+    }
 
 		  const ctx = document.getElementById('piechart').getContext('2d');;
 		  Chart.defaults.global.legend.display = false;
 		  new Chart(ctx, {
 			type: 'pie',
 			data: {
+			labels: labels_data_for_myChartBarSection,
 			  datasets: [{
-				label: '# of Votes',
-				backgroundColor: ['#fa997d', '#ecadd9', '#77e7ed', '#9ef4a2'],
-				data: [35, 5, 45, 15],
+				label: 'of Votes',
+				backgroundColor: ['#8f57eb','#fa997d', '#ecadd9', '#77e7ed', '#9ef4a2'],
+				data: datasets_for_myChartBarSection,
 				borderWidth: 1
 			  }]
 			},
 			options: {
 			maintainAspectRatio: false,
-			  scales: {
-				scaleShowLine:false,
-				display:false,
-				 pointLabels:{
-					fontSize: 0
-				 },
-			  },
-			  tooltips:{
-				 enabled:false,
-			  }
+			scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+
 			}
 		  });
 </script>
